@@ -22,7 +22,7 @@ int main()
 int binarySearcher(int arr[], int size, int key)
 {
 
-    int startingPoint = 0, endingPoint = size;
+    int startingPoint = 0, endingPoint = size - 1;
 
     while (startingPoint <= endingPoint)
     {
