@@ -28,6 +28,7 @@ int main()
         std::cout << "Ciao" << std::endl;
         break;
     default:
+        std::cout << "Learning more languages" << std::endl;
         break;
     }
 }
