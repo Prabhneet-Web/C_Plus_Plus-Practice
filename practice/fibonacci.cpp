@@ -11,7 +11,6 @@ void fibonacci(int n)
         std::cout << t1 << std::endl;
         nextTerm = t1 + t2;
         t1 = t2;
-        t1 = t2;
         t2 = nextTerm;
     }
 }
