@@ -2,16 +2,16 @@
 
 void fibonacci(int n)
 {
-    int t1 = 0;
-    int t2 = 1;
+    int a = 0;
+    int b = 1;
     int nextTerm;
 
     for (int i = 1; i <= n; i++)
     {
-        std::cout << t1 << std::endl;
-        nextTerm = t1 + t2;
-        t1 = t2;
-        t2 = nextTerm;
+        std::cout << a << std::endl;
+        nextTerm = a + b;
+        a = b;
+        b = nextTerm;
     }
 }
 
